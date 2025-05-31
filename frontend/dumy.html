@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene Expression Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-dna dna-icon"></i>
+            <span>Gene Expression Explorer</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li><a href="visualization.html">Visualization</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="assistant.html">AI Assistant</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Gene Expression Explorer</h1>
+                <p class="subtitle">Advanced Bioinformatics Analysis Platform for Disease Research</p>
+                <div class="team-info">
+                    <p>Team: ANITS Girls | Lead: Pediredla Navya Sri | Event: Hack 4 Mini 2.0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-container">
+                <h2><i class="fas fa-search"></i> Gene Expression Search & Analysis</h2>
+                <div class="search-form">
+                    <div class="form-group">
+                        <label>Select Dataset:</label>
+                        <select id="datasetSelect">
+                            <option>Breast Cancer vs Normal Tissue</option>
+                            <option>Lung Cancer Analysis</option>
+                            <option>Leukemia Study</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter gene symbol (e.g., BRCA1, TP53, MYC, EGFR, PTEN)" class="gene-input">
+                    </div>
+                    <div class="button-group">
+                        <button class="analyze-btn"><i class="fas fa-dna"></i> Analyze Gene</button>
+                        <button class="sample-btn"><i class="fas fa-chart-bar"></i> Load Sample Analysis</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Dataset Statistics</h3>
+                    <div class="stat-content">
+                        <div class="stat-item">
+                            <i class="fas fa-database"></i>
+                            <span>Total Samples: 500+</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-dna"></i>
+                            <span>Genes Analyzed: 20,000+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Volcano Plot</h3>
+                    <div class="plot-placeholder">
+                        <i class="fas fa-chart-scatter"></i>
+                        <span>Select genes to view analysis</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Expression Heatmap</h3>
+                    <div class="plot-placeholder">
+                        <i class="fas fa-th"></i>
+                        <span>Select genes to view heatmap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Gene Expression Explorer</h4>
+                <p>A project for Hack 4 Mini 2.0</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gene Expression Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
