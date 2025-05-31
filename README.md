@@ -1,6 +1,6 @@
 # Gene Expression Explorer
 
-A web application for analyzing and visualizing gene expression data from NCBI's GEO repository. This project was created for Hack 4 Mini 2.0 in the HealthTech & Bioinformatics category.
+A web application for analyzing and visualizing gene expression data from NCBI's GEO repository. This project is in the HealthTech & Bioinformatics category.
 
 ## Features
 
@@ -52,6 +52,3 @@ A web application for analyzing and visualizing gene expression data from NCBI's
 
 The application will be available at http://localhost:3000
 
-## Team
-
-Team Name: anits girls 
